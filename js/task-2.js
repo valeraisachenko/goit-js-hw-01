@@ -1,12 +1,11 @@
-/*
- * - Ввод пользовователя
- * - Методы window.confirm() и window.prompt()
- */
+"use strict";
 
-const shouldRenew = confirm('Хотите продлить подписку?');
-console.log(shouldRenew);
+const total = 100;
+const ordered = 30;
 
-let quantity = prompt('Введите количество товаров');
-quantity = Number(quantity);
-console.log(quantity);
-console.log(typeof quantity);
+if (ordered > total) {
+    console.log("На складе недостаточно товаров!");
+} else {
+    console.log("Заказ оформлен, с вами свяжется менеджер");
+}
+
