@@ -1,20 +1,16 @@
-/*
- * Операторы сравнения
- */
+const option = 0;
+let message = '';
 
-// console.log(15 < 3);
-
-/*
- * Приведение (преобразование) типов к числу
- */
-
-// console.log('10' > 5);
-
-/*
- * Операторы равенства (== и ===) и неравества (!= и !==)
- * ✅ «ВСЕГДА ИСПОЛЬЗУЕМ СТРОГОЕ РАВЕНСТВО (===) и НЕРАВЕНСТВО (!==)»
- */
-
-const isEqual = 1 === true;
-
-console.log(isEqual);
+switch (option) {
+    case 1:
+        message = 'вы можете забрать наш товар'
+        break;
+    
+    case 2:
+        message = 'dvneonvv mbepbmepbmoe'
+        break;
+    
+    default:
+        message = 'вам перезвонит менеджер'
+}
+console.log(message);
